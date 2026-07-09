@@ -18,12 +18,13 @@ public class FirstLine{
         idade = leia.nextInt();
         System.out.println("Digite Sua altura");
         altura = leia.nextDouble();
+        leia.nextLine();
         System.out.println("Digite seu cargo");
         cargo = leia.nextLine();
         System.out.println("Digite o horário que estuda, ex: Matutino, verspertino, noturno");
         horario = leia.nextLine();
 
-        System.out.println("Bem-vindo " + nome + "Você tem " + idade + "  anos, sua altura é " + altura + ", você trabalha como "+ cargo + ", e você estuda no periodo da " + horario);
+        System.out.println("Bem-vindo, " + nome + "! Você tem " + idade + " anos, sua altura é " + altura + ", você trabalha como "+ cargo + ", e você estuda no periodo " + horario);
 
 
 
