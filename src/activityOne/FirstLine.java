@@ -1,3 +1,5 @@
+package activityOne;
+
 import java.util.Scanner;
 
 public class FirstLine{
